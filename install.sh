@@ -1,12 +1,12 @@
 wget -O PowerMTA-4.5r11.rpm https://github.com/yufu20230319/PMTA5/blob/main/PowerMTA-4.5r11.rpm
 rpm -Uvh PowerMTA-4.5r11.rpm --nodeps --force
-wget -O pmta https://github.com/yuweng1013/autoinstall/raw/main/pmta
-wget -O pmtad https://github.com/yuweng1013/autoinstall/raw/main/pmtad
-wget -O pmtahttpd https://github.com/yuweng1013/autoinstall/raw/main/pmtahttpd
-wget -O pmtasnmpd https://github.com/yuweng1013/autoinstall/raw/main/pmtasnmpd
-wget -O license https://github.com/yuweng1013/autoinstall/raw/main/license
-wget -O config https://github.com/yuweng1013/autoinstall/raw/main/config
-wget -O mykey.6068805.com.pem https://github.com/yuweng1013/autoinstall/raw/main/mykey.6068805.com.pem
+wget -O pmta https://github.com/yufu20230319/PMTA5/blob/main/pmta
+wget -O pmtad https://github.com/yufu20230319/PMTA5/blob/main/pmtad
+wget -O pmtahttpd https://github.com/yufu20230319/PMTA5/blob/main/pmtahttpd
+wget -O pmtasnmpd https://github.com/yufu20230319/PMTA5/blob/main/pmtasnmpd
+wget -O license https://github.com/yufu20230319/PMTA5/blob/main/license
+wget -O config https://github.com/yufu20230319/PMTA5/blob/main/config
+wget -O mykey.6068805.com.pem https://github.com/yufu20230319/PMTA5/blob/main/mykey.6068805.com.pem
 
 echo -n "your pmta ip:"
 read pmtaip
